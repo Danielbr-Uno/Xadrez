@@ -2,7 +2,7 @@
 
 int main(){
 
-    int r = -1, b = 1;
+    int r = -1, b = 1, c = 1;
 
     printf("Movimento da torre: \n");
     for(int t = 1; t <=5; t++){
@@ -20,6 +20,17 @@ int main(){
         printf("%d. Cima-Direita \n", b);
         b++;
     }while(b <= 5);
+
+    printf("\n");
+
+    printf("Movimento do cavalo: \n");
+    while(c--){
+
+        for(int C = 1; C <= 2; C++){
+            printf("Baixo.\n", C);
+        }
+        printf("Esquerda.\n", c);
+    }
 
     return 0;
 }
