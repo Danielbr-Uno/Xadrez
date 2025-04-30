@@ -39,12 +39,19 @@ void moverCavalo(){
 
 int main(){
 
+    printf("Movimento da Torre: \n");
     moverTorre(5);
     printf("\n");
+
+    printf("Movimento da Rainha: \n");
     moverRainha(8);
     printf("\n");
+
+    printf("Movimento do Bispo: \n");
     moverBispo(5);
     printf("\n");
+
+    printf("Movimento do Cavalo: \n");
     moverCavalo();
 
     return 0;
