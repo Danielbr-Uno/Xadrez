@@ -27,9 +27,9 @@ int main(){
     while(c--){
 
         for(int C = 1; C <= 2; C++){
-            printf("Baixo.\n", C);
+            printf("Baixo.\n");
         }
-        printf("Esquerda.\n", c);
+        printf("Esquerda.\n");
     }
 
     return 0;
